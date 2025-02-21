@@ -32,7 +32,7 @@ pip install pandas numpy matplotlib seaborn darts joblib
 2. Ensure that the files `estaciones_alturas.txt`, `paths_datos_nuevos_2024.txt`, and `paths_datos_antiguos_2024.txt` contain the correct paths to the data.
 3. Run the main script:
 ```sh
-python script.py
+python train_script.py
 ```
 4. To perform model performance analysis, ensure that the input file contains the necessary columns: `Station`, `Model`, `MAPE`, `MAE`, `MSE`, `RMSE`, `RMSLE`, `Koppen`, `ESA`, `Height`, `Level`, `Latitude`, and `Site`. Then, execute the statistical analysis script:
 ```sh
